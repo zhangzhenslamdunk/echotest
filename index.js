@@ -21,7 +21,6 @@ restService.post("/echo", function(req, res) {
       ? req.body.result.parameters.echoText
       : "Seems like some problem. Speak again.";
   
-  window.open('mailto:zhangzhenslamdunk@hotmail.com?subject=subject&body=body');
   
   return res.json({
     speech: speech,
