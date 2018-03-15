@@ -18,7 +18,7 @@ restService.post("/echo", function(req, res) {
     req.body.result &&
     req.body.result.parameters &&
     req.body.result.parameters.echoText
-      ? req.body.result.parameters.echoText
+      ? "You are always like this!" //req.body.result.parameters.echoText
       : "Seems like some problem. Speak again.";
   
   
